@@ -10,12 +10,12 @@ const Shop = () => {
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
-    // Adding Selected Items in a array
+    // Added Selected Items in a array
     const addToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
     }
-    // For random item suggestion
+    //  random item selecting
     const chooseForMe = (cart) => {
         const choosen = cart.map(obj => ({ ...obj }));
         var randomItem = choosen[Math.floor(Math.random() * choosen.length)];
@@ -28,8 +28,8 @@ const Shop = () => {
 
     return (
         <div className='row position-relative'>
-            <div className='col-8'>
-                <div className='row row-cols-3'>
+            <div className='col-lg-8 col-12'>
+                <div className='row row-cols-1 row-cols-lg-3'>
                     {
                         products.map(product => <Product
                             key={product.id}
@@ -39,7 +39,7 @@ const Shop = () => {
                     }
                 </div>
             </div>
-            <div className='col-4 bg-info p-3 position-sticky top-0'>
+            <div className='col-lg-4 col-12 bg-info p-3 position-sticky top-0'>
                 <h1 className='text-start'>Selected Items:</h1>
                 {
                     cart.map(item => <Cart
