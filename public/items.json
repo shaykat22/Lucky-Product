@@ -3,54 +3,54 @@
         "id": "1",
         "name": "BP Machine",
         "price": 150,
-        "img": "https://i.imgur.com/FqasnTg.jpg"
+        "img": "photo/photo1.png"
     },
     {
         "id": "2",
         "name": " FL400 Pulse Oximeter",
         "price": 180,
-        "img": "https://i.imgur.com/5oqFhJf.jpg"
+        "img": "photo/photo2.png"
     },
     {
         "id": "3",
         "name": "Infrared Forehead Thermometer",
         "price": 250,
-        "img": "https://i.imgur.com/cJN7LGz.jpg"
+        "img": "photo/photo3.png"
     },
     {
         "id": "4",
         "name": " Portable Ultrasound Scanner",
         "price": 350,
-        "img": "https://i.imgur.com/MGSvUQq.jpg"
+        "img": "photo/photo4.png"
     },
     {
         "id": "5",
         "name": "Powdered Latex Examination Gloves",
         "price": 450,
-        "img": "https://i.imgur.com/IoVkqwj.jpg"
+        "img": "photo/photo5.png"
     },
     {
         "id": "6",
         "name": "Bilirubinometer",
         "price": 230,
-        "img": "https://i.imgur.com/vJPLm3M.jpg"
+        "img": "photo/photo6.png"
     },
     {
         "id": "7",
         "name": "Microhematocrit Centrifuge",
         "price": 399,
-        "img": "../src/images/7.jpg"
+        "img": "photo/photo7.png"
     },
     {
         "id": "8",
         "name": "ICU Patient Monitor",
         "price": 499,
-        "img": "../src/images/8.jpg"
+        "img": "photo/photo8.png"
     },
     {
         "id": "9",
         "name": "LED OT Lights",
         "price": 599,
-        "img": "../src/images/9.jpg"
+        "img": "photo/photo9.png"
     }
 ]
