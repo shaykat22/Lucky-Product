@@ -39,7 +39,20 @@ const Shop = () => {
                     }
                 </div>
             </div>
+            <div className='col-4 bg-info p-3 position-sticky top-0'>
+                <h1 className='text-start'>Selected Items:</h1>
+                {
+                    cart.map(item => <Cart
+                        key={item.id}
+                        item={item}
+                    ></Cart>)
+                }
 
+                <div>
+                    <button onClick={() => chooseForMe(cart)} className='btn border d-block mb-2 bg-light'>CHOOSE 1 FOR ME</button>
+                    <button onClick={() => chooseAgain(cart)} className='btn border d-block bg-light'>CHOOSE AGAIN</button>
+                </div>
+            </div>
         </div>
     );
 };

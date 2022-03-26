@@ -11,7 +11,7 @@ const Product = (props) => {
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
-                    <p className="card-text">Price: {price}BDT</p>
+                    <p className="card-text">Price:${price}</p>
                 </div>
                 <div className="">
                     <button onClick={() => addToCart(props.product)} className='btn bg-warning w-100 fw-bold'>Add to Cart<FontAwesomeIcon icon={faShoppingCart} /></button>
